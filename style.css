@@ -1,0 +1,63 @@
+header{
+    background-color: black;
+    padding: 25px;
+}
+ul{
+    list-style-type: none;
+text-align: center;
+}
+ul li{
+    display: inline;
+    margin-left: 10px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+ul li a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    flex-wrap: wrap;
+    
+}
+.product{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    /* background: linear-gradient(black,green); */
+}
+button:hover{
+color: white;
+cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 35px;
+    font-size: 20px;
+}
+footer:hover{
+    color: aqua;
+    text-decoration: underline;
+    
+}
+.four{
+    color: green;
+    
+}
